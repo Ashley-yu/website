@@ -1,0 +1,51 @@
+@mixin screen-lg() {
+  @media screen and (max-width: 1200px) {
+    @content
+  }
+}
+
+@mixin screen-md() {
+  @media screen and (max-width: 992px) {
+    @content
+  }
+}
+
+@mixin screen-sm() {
+  @media screen and (max-width: 768px) {
+    @content
+  }
+}
+
+@mixin screen-xs() {
+  @media screen and (max-width: 576px) {
+    @content
+  }
+}
+
+// 行動裝置不顯示hover效果
+@mixin hover-supported() {
+  @media not all and (pointer: coarse) {
+    &:hover {
+      @content
+    }
+  }
+}
+
+@mixin size($width,$height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin flex($justify-content: center, $align-items: center) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  @content
+}
+
+@mixin background($bg-image, $position: center, $size: cover, $repeat: no-repeat) {
+  background-image: url($bg-image);
+  background-repeat: $repeat;
+  background-position: $position;
+  background-size: $size;
+}
