@@ -12,7 +12,7 @@
           //router-link.list-group-item.list-group-item-action(to='/parallax/parallaxScrolling')
             | Parallax Scrolling
           router-link.list-group-item.list-group-item-action(to='/parallax/parallaxSwiper')
-            | ParallaxSwiper
+            | Parallax + Swiper
       .col-md-3
         .list-group
           a.list-group-item.list-group-item-action.active(href='#' aria-current='true')
