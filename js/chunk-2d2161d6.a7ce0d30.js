@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d2161d6"],{c0a4:function(e,n,t){"use strict";t.r(n);var a=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("router-view")},c=[],r={name:"Carousel"},u=r,o=t("2877"),s=Object(o["a"])(u,a,c,!1,null,"5077dacf",null);n["default"]=s.exports}}]);
+//# sourceMappingURL=chunk-2d2161d6.a7ce0d30.js.map

@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d22ca71"],{f3c1:function(n,a,c){"use strict";c.r(a);var e=function(){var n=this,a=n.$createElement,c=n._self._c||a;return c("div",{staticClass:"container-fluid"})},t=[],l={name:"ParallaxScrolling"},i=l,r=c("2877"),s=Object(r["a"])(i,e,t,!1,null,"bcb25d2a",null);a["default"]=s.exports}}]);
+//# sourceMappingURL=chunk-2d22ca71.6a31f0b8.js.map

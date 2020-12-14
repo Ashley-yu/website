@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0dddfa"],{"82f0":function(e,a,n){"use strict";n.r(a);var t=function(){var e=this,a=e.$createElement,n=e._self._c||a;return n("router-view")},r=[],u={name:"Parallax"},c=u,l=n("2877"),o=Object(l["a"])(c,t,r,!1,null,"13ae55af",null);a["default"]=o.exports}}]);
+//# sourceMappingURL=chunk-2d0dddfa.db8fdaff.js.map
