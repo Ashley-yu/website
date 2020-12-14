@@ -25,6 +25,12 @@
             | Swiper Infinite Loop
           router-link.list-group-item.list-group-item-action(to='/carousel/owlCarousel')
             | Owl Carousel
+      .col-md-3
+        .list-group
+          a.list-group-item.list-group-item-action.active(href='#' aria-current='true')
+            | Scrolling Effect Example
+          router-link.list-group-item.list-group-item-action(to='/Scrolling/aos')
+            | AOS
 </template>
 
 <script>

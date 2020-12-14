@@ -67,6 +67,18 @@ const routes = [
         ],
     },
     {
+        path: '/scrolling',
+        name: 'scrolling',
+        component: () => import('@/views/Scrolling.vue'),
+        children: [
+            {
+                path: 'aos',
+                name: 'aos',
+                component: () => import('@/components/Scrolling/aos')
+            },
+        ],
+    },
+    {
         path: '/home',
         name: 'homepage',
         component: () => import('@/components/HelloWorld.vue'),
