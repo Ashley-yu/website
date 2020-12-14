@@ -37,6 +37,11 @@ const routes = [
                 name: 'parallaxSwiper',
                 component: () => import('@/components/Parallax/ParallaxSwiper')
             },
+            {
+                path: 'laxJs',
+                name: 'laxJs',
+                component: () => import('@/components/Parallax/LaxJs')
+            }
         ],
     },
     {

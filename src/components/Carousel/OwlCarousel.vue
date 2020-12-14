@@ -1,7 +1,7 @@
 <template lang="pug">
   .container-fluid.p-0
     section
-      carousel(:autoplay="false" :nav="false" :dots="true").position-relative
+      carousel(:autoplay="true" :nav="false" :dots="true").position-relative
         // Custom prev and next buttons
         template(v-slot:prev='')
           span.position-absolute.btn.btn-light.border-0.py-6.px-3.prev <

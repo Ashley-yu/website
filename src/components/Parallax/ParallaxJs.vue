@@ -51,7 +51,7 @@
 <script>
 import Parallax from 'parallax-js';
 export default {
-  name: "Parallax",
+  name: "ParallaxJs",
   data() {
     return {
       parallaxInstance: '',

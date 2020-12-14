@@ -5388,6 +5388,11 @@ launch-editor@^2.2.1:
     chalk "^2.3.0"
     shell-quote "^1.6.1"
 
+lax.js@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/lax.js/-/lax.js-2.0.2.tgz#26fc310d4dd6f3b3d809f4488d5586160682feae"
+  integrity sha512-RxWYnpRzc1JwDFLDhBPLdCGg94K8ZjWJwQNxJxQTDtsfoFiNh9cGv77VBQ2wFqCN8YE5CGSUGSVav6eGkfBF3A==
+
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/levn/-/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"

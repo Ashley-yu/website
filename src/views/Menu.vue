@@ -13,6 +13,8 @@
             | Parallax Scrolling
           router-link.list-group-item.list-group-item-action(to='/parallax/parallaxSwiper')
             | Parallax + Swiper
+          router-link.list-group-item.list-group-item-action(to='/parallax/laxJs')
+            | Lax Js
       .col-md-3
         .list-group
           a.list-group-item.list-group-item-action.active(href='#' aria-current='true')
